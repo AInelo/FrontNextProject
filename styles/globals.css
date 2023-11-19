@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .translate-z-0 {
   transform: translateZ(0px);
 }
@@ -48,5 +49,4 @@
   .textarea {
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
-  
 }
