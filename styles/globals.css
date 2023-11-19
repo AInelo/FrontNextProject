@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .translate-z-0 {
   transform: translateZ(0px);
 }
@@ -12,12 +11,14 @@
   background-color: #f13024;
 }
 
+
 .swiper-button-next:after,
 .swiper-button-prev:after,
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
   color: #f13024;
 }
+
 
 @layer base {
   body {
