@@ -81,9 +81,9 @@ const Home = () => {
     //   </div>
     // </div>
 
-    <body>
+    <div>
 
-    </body>
+    </div>
 
   );
 };
