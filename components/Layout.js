@@ -10,6 +10,7 @@ const sora = Sora({
 
 // components
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import TopLeftImg from '../components/TopLeftImg'
 
@@ -20,12 +21,13 @@ const Layout = ({ children }) => {
   font-sora relative`}
     >
       {/* <TopLeftImg />
+      <Header /> 
+      */}
+
       <Nav />
-      <Header /> */}
-
-
-
       {children}
+
+      <Footer />
     </div>
   );
 };
