@@ -12,7 +12,7 @@ export default function Home() {
 				<link rel="icon" href="/pro.ico" />
 			</Head>
 			<Nav />
-			<FirstContent /> 
+			{/* <FirstContent />  */}
 			<Herosection />
 			<Footer />
 		</div>
