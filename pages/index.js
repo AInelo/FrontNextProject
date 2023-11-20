@@ -2,7 +2,8 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Herosection from "../components/Herosection";
 import FirstContent from "../components/firstContent"
-import Nav from "../components/Nav"
+import Nav from "../components/Nav";
+import Newsletter from "../components/Newsletter"
 
 export default function Home() {
 	return (
@@ -13,11 +14,11 @@ export default function Home() {
 			</Head>
 
 
-
+			
 			<Nav/>
 			<Herosection/>
 			<FirstContent/> 
-			
+			<Newsletter/>
 			<Footer/>
 		</div>
 	);
