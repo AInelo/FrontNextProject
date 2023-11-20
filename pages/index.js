@@ -13,10 +13,11 @@ export default function Home() {
 			</Head>
 
 
-			
+
 			<Nav/>
-			<FirstContent/> 
 			<Herosection/>
+			<FirstContent/> 
+			
 			<Footer/>
 		</div>
 	);
