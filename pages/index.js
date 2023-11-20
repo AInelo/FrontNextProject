@@ -16,12 +16,12 @@ export default function Home() {
 
 
 
-			<Nav/>
+			<Nav className="fixed" />
 			{/* <Herosection/> */}
-			<Secondsection/>
-			<FirstContent/> 
-			<Newsletter/>
-			<Footer/>
+			<Secondsection />
+			<FirstContent />
+			<Newsletter />
+			<Footer />
 		</div>
 	);
 }

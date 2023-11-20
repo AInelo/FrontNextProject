@@ -4,7 +4,7 @@ const products = [
     id: 1,
     name: 'Earthen Bottle',
     href: '',
-    price: '$48',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
@@ -12,7 +12,7 @@ const products = [
     id: 2,
     name: 'Nomad Tumbler',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
@@ -20,7 +20,7 @@ const products = [
     id: 3,
     name: 'Focus Paper Refill',
     href: '',
-    price: '$89',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
@@ -28,7 +28,7 @@ const products = [
     id: 4,
     name: 'Machined Mechanical Pencil',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -36,7 +36,7 @@ const products = [
     id: 5,
     name: 'Machined Mechanical Pencil',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -44,7 +44,7 @@ const products = [
     id: 6,
     name: 'Machined Mechanical Pencil',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -52,7 +52,7 @@ const products = [
     id: 7,
     name: 'Machined Mechanical Pencil',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -60,7 +60,7 @@ const products = [
     id: 8,
     name: 'Machined Mechanical Pencil',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -68,7 +68,7 @@ const products = [
     id: 9,
     name: 'Earthen Bottle',
     href: '',
-    price: '$48',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
@@ -76,7 +76,7 @@ const products = [
     id: 10,
     name: 'Nomad Tumbler',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
@@ -84,7 +84,7 @@ const products = [
     id: 11,
     name: 'Focus Paper Refill',
     href: '',
-    price: '$89',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
@@ -92,7 +92,7 @@ const products = [
     id: 12,
     name: 'Machined Mechanical Pencil',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -100,7 +100,7 @@ const products = [
     id: 13,
     name: 'Earthen Bottle',
     href: '',
-    price: '$48',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
@@ -108,7 +108,7 @@ const products = [
     id: 14,
     name: 'Nomad Tumbler',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
@@ -116,7 +116,7 @@ const products = [
     id: 15,
     name: 'Focus Paper Refill',
     href: '',
-    price: '$89',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
@@ -124,7 +124,7 @@ const products = [
     id: 16,
     name: 'Machined Mechanical Pencil',
     href: '',
-    price: '$35',
+
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -150,23 +150,22 @@ function FirstContent() {
                   className="h-full w-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-              <p className="mt-1 text-lg font-medium text-gray-900">{product.price}</p>
+              <h3 className="mt-4 text-sm text-black-700">{product.name}</h3>
 
-              <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                Explorez plus
-                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-              </a>
+              <div href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-purple-500 hover:bg-purple-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                Voir le projet
+                <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"></svg>
+              </div>
             </a>
           ))}
-          <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+          <a href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
             Explorez plus
-            <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
           </a>
 
         </div>
       </div>
-    </div>
+    </div >
 
   );
 }
