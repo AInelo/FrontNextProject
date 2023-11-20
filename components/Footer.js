@@ -34,7 +34,7 @@ function Footer() {
                             Design
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Devis
+                            Conception de Logo
                         </li>
                     </ul>
                 </div>
@@ -81,9 +81,9 @@ function Footer() {
             </div>
             <div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
                 <h1 className=" text-gray-800 font-semibold">
-                    © 2023 Tous droits reservés | Réalisé ❤ par{" "}
+                    © 2023 Tous droits reservés | Réalisé par
                     <span className="hover:text-blue-600 font-semibold cursor-pointer">
-                        TOTON Lionel{" "}
+                        TOTON Lionel
                     </span>
                 </h1>
             </div>
