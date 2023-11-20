@@ -24,7 +24,7 @@ function Secondsection() {
                 </div>
 
                 <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                    <img src="./public/image.png" alt="mock" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/seidev.appspot.com/o/Mr%20Norman_FrontNextJs%2Fimage.png?alt=media&token=f4650cc2-da8a-4e4c-8644-50df1705e02f" alt="mock" />
                 </div>
             </div>
         </section>
