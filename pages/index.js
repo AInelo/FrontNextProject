@@ -3,7 +3,8 @@ import Footer from "../components/Footer";
 import Herosection from "../components/Herosection";
 import FirstContent from "../components/firstContent"
 import Nav from "../components/Nav";
-import Newsletter from "../components/Newsletter"
+import Newsletter from "../components/Newsletter";
+import Secondsection from "../components/Secondsection"
 
 export default function Home() {
 	return (
@@ -15,8 +16,10 @@ export default function Home() {
 
 
 			
+
 			<Nav/>
 			<Herosection/>
+			<Secondsection/>
 			<FirstContent/> 
 			<Newsletter/>
 			<Footer/>
