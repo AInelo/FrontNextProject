@@ -23,38 +23,38 @@ function Footer() {
                 </div>
                 <div className="p-5">
                     <ul>
-                        <p className="text-gray-800 font-bold text-2xl pb-4">Product</p>
+                        <p className="text-gray-800 font-bold text-2xl pb-4">Services</p>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Stocks
+                            Dev web
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Futures & Options
+                            Web Master
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Mutual Funds
+                            Design
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Fixed deposits
+                            Devis
                         </li>
                     </ul>
                 </div>
                 <div className="p-5">
                     <ul>
-                        <p className="text-gray-800 font-bold text-2xl pb-4">Company</p>
+                        <p className="text-gray-800 font-bold text-2xl pb-4">Pages</p>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            About
+                            Acceuil
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Products
+                            Services
+                        </li>
+                        <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+                            Projets
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
                             Pricing
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Careers
-                        </li>
-                        <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Press & Media
+                            Faire un Devis
                         </li>
                     </ul>
                 </div>
@@ -65,16 +65,16 @@ function Footer() {
                             Contact
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Support Portals
+                            Email
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            List Of Charges
+                            LinkedIn
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Downloads & Resources
+                            Facebook
                         </li>
                         <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-                            Videos
+                            Youtube
                         </li>
                     </ul>
                 </div>
