@@ -11,10 +11,13 @@ export default function Home() {
 				<title>Portfolio Darteen</title>
 				<link rel="icon" href="/pro.ico" />
 			</Head>
-			<Nav />
-			{/* <FirstContent />  */}
-			<Herosection />
-			<Footer />
+
+
+			
+			<Nav/>
+			<FirstContent/> 
+			<Herosection/>
+			<Footer/>
 		</div>
 	);
 }
