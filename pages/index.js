@@ -4,7 +4,7 @@ import Herosection from "../components/Herosection";
 import FirstContent from "../components/firstContent"
 import Nav from "../components/Nav";
 import Newsletter from "../components/Newsletter";
-import Secondsection from "../components/Secondsection"
+import Secondsection from "../components/Secondsection";
 
 export default function Home() {
 	return (
@@ -15,10 +15,9 @@ export default function Home() {
 			</Head>
 
 
-			
 
 			<Nav/>
-			<Herosection/>
+			{/* <Herosection/> */}
 			<Secondsection/>
 			<FirstContent/> 
 			<Newsletter/>
