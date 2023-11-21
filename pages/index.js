@@ -17,9 +17,9 @@ export default function Home() {
 
 
 
-			<Nav className="fixed" />
-			{/* <Herosection/> */}
-			<Secondsection />
+			<Nav />
+			<Herosection />
+			{/* <Secondsection /> */}
 			< Carousel />
 			<FirstContent />
 			<Newsletter />
