@@ -110,7 +110,6 @@ const Nav = () => {
   // ... rest of your code
 
   <div>
-
     <section id="mobile-menu"
       class="top-68 justify-center absolute hidden  w-full origin-top animate-open-menu flex-col bg-black text-5xl">
       {/* <!-- <button class="text-8xl self-end px-6">
@@ -125,8 +124,6 @@ const Nav = () => {
         <a href="#footer" class="w-full text-center text-white  py-6 hover-opacity-90">Legal</a>
       </nav>
     </section>
-
-
 
 
 
@@ -180,19 +177,19 @@ const Nav = () => {
 
 };
 
-const initApp = () => {
-  const hamburgerBtn = document.getElementById('hamburger-button');
-  const mobileMenu = document.getElementById('mobile-menu');
+// const initApp = () => {
+//   const hamburgerBtn = document.getElementById('hamburger-button');
+//   const mobileMenu = document.getElementById('mobile-menu');
 
-  const toggleMenu = () => {
-    mobileMenu.classList.toggle('hidden');
-    mobileMenu.classList.toggle('flex');
-    hamburgerBtn.classList.toggle('toggle-btn');
-  }
+//   const toggleMenu = () => {
+//     mobileMenu.classList.toggle('hidden');
+//     mobileMenu.classList.toggle('flex');
+//     hamburgerBtn.classList.toggle('toggle-btn');
+//   }
 
-  hamburgerBtn.addEventListener('click', toggleMenu)
-  mobileMenu.addEventListener('click', toggleMenu)
-}
+//   hamburgerBtn.addEventListener('click', toggleMenu)
+//   mobileMenu.addEventListener('click', toggleMenu)
+// }
 
 // document.addEventListener('DOMContentLoaded', initApp)
 
