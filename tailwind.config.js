@@ -1,3 +1,5 @@
+/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   mode: 'jit',
   purge: [
@@ -48,6 +50,10 @@ module.exports = {
       ]
     }
   },
+  corePlugins: {
+
+  },
+
   variants: {
     extend: {},
   },
