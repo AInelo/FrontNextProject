@@ -2,130 +2,130 @@ import React from "react";
 const products = [
   {
     id: 1,
-    name: 'Earthen Bottle',
+    name: 'Site E-com',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    imageSrc: '/Images_Projects/Project1.png',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   {
     id: 2,
-    name: 'Nomad Tumbler',
+    name: 'Site Marketing',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    imageSrc: '/Images_Projects/Project2.png',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
   {
     id: 3,
-    name: 'Focus Paper Refill',
+    name: 'Portfolio Pro',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    imageSrc: '/Images_Projects/Project3.png',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
     id: 4,
-    name: 'Machined Mechanical Pencil',
+    name: 'Site de Restauration',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    imageSrc: '/Images_Projects/Project4.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 5,
-    name: 'Machined Mechanical Pencil',
+    name: 'Site Branding',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    imageSrc: '/Images_Projects/Project5.png',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 6,
-    name: 'Machined Mechanical Pencil',
+    name: 'Site Agence Marketing',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    imageSrc: '/Images_Projects/Project6.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 7,
-    name: 'Machined Mechanical Pencil',
+    name: 'Site Produit cosmetic',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    imageSrc: '/Images_Projects/Project7.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 8,
-    name: 'Machined Mechanical Pencil',
+    name: 'Design',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    imageSrc: '/Images_Projects/Project8.png',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 9,
-    name: 'Earthen Bottle',
+    name: 'Site Voyage',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    imageSrc: '/Images_Projects/Project9.png',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   {
     id: 10,
-    name: 'Nomad Tumbler',
+    name: 'Portfolio Photograph',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    imageSrc: '/Images_Projects/Project10.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
   {
     id: 11,
-    name: 'Focus Paper Refill',
+    name: 'Ecom Branding',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    imageSrc: '/Images_Projects/Project11.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
     id: 12,
-    name: 'Machined Mechanical Pencil',
+    name: 'Site Ecom',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    imageSrc: '/Images_Projects/Project12.png',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 13,
-    name: 'Earthen Bottle',
+    name: 'Site Agence Immobilière',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    imageSrc: '/Images_Projects/Project13.png',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   {
     id: 14,
-    name: 'Nomad Tumbler',
+    name: 'Front End Design minimaliste',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    imageSrc: '/Images_Projects/Project14.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
   {
     id: 15,
-    name: 'Focus Paper Refill',
+    name: 'Front End Design',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    imageSrc: '/Images_Projects/Project15.png',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
     id: 16,
-    name: 'Machined Mechanical Pencil',
+    name: 'Portfolio Agence',
     href: '',
 
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    imageSrc: '/Images_Projects/Project16.png',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
 
@@ -153,10 +153,10 @@ function FirstContent() {
                     className="h-full w-full object-cover object-center group-hover:opacity-75"
                   />
                 </div>
-                <h3 className="mt-4 text-sm text-black-700">{product.name}</h3>
+                <h3 className="mt-4 font-bold text-sm text-black-700">{product.name}</h3>
 
-                <div href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg      bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border border-gray-100          bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                  Voir le projet
+                <div href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg    bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border border-gray-100     bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                  <p className="font-bold"> Voir le projet  </p>
                   <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"></svg>
                 </div>
               </a>
