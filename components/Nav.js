@@ -16,8 +16,7 @@ const Nav = () => {
   return (
 
     <div>
-      <section id="mobile-menu"
-        class="top-68 justify-center absolute hidden  w-full origin-top animate-open-menu flex-col bg-black text-5xl">
+      <section id="mobile-menu" class="top-68 justify-center absolute hidden  w-full origin-top animate-open-menu z-30 flex-col bg-black text-5xl">
         {/* <!-- <button class="text-8xl self-end px-6">
           &times;
         </button> --> */}
@@ -128,7 +127,7 @@ const Nav = () => {
 
 
 
-const Nav4 = () => {
+const Nav3 = () => {
   useEffect(() => {
     const toggleMobileMenu = () => {
       const mobileMenu = document.getElementById('mobile-menu');
@@ -152,17 +151,17 @@ const Nav4 = () => {
 
   <div>
     <section
-      class="top-68 justify-center w-full origin-top animate-open-menu flex-col bg-black text-5xl">
+      class="top-68 justify-center hidden w-full origin-top animate-open-menu flex-col bg-black text-3xl z-100">
       {/* <!-- <button class="text-8xl self-end px-6">
           &times;
         </button> --> */}
 
       <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
-        <a href="#hero" class="w-full text-white text-center py-6 hover-opacity-90">Home</a>
-        <a href="#rockets" class="w-full text-white  text-center py-6 hover-opacity-90">Our Rockets</a>
-        <a href="#testimonials" class="w-full text-white  text-center py-6 hover-opacity-90">Testimonials</a>
-        <a href="#contact" class="w-full text-center text-white py-6 hover-opacity-90">Contact Us</a>
-        <a href="#footer" class="w-full text-center text-white  py-6 hover-opacity-90">Legal</a>
+        <a href="#hero" class="w-full text-white text-center py-6 hover-opacity-90">Acceuil</a>
+        <a href="#rockets" class="w-full text-white  text-center py-6 hover-opacity-90">A Propos</a>
+        <a href="#testimonials" class="w-full text-white  text-center py-6 hover-opacity-90">Services</a>
+        <a href="#contact" class="w-full text-center text-white py-6 hover-opacity-90">Projets</a>
+        <a href="#footer" class="w-full text-center text-white  py-6 hover-opacity-90">Contact</a>
       </nav>
     </section>
 
@@ -215,19 +214,24 @@ const Nav4 = () => {
 
 };
 
-// const initApp = () => {
-//   const hamburgerBtn = document.getElementById('hamburger-button');
-//   const mobileMenu = document.getElementById('mobile-menu');
+const initApp = () => {
+  const hamburgerBtn = document.getElementById('hamburger-button');
+  const mobileMenu = document.getElementById('mobile-menu');
 
-//   const toggleMenu = () => {
-//     mobileMenu.classList.toggle('hidden');
-//     mobileMenu.classList.toggle('flex');
-//     hamburgerBtn.classList.toggle('toggle-btn');
-//   }
-//   hamburgerBtn.addEventListener('click', toggleMenu)
-//   mobileMenu.addEventListener('click', toggleMenu)
-// }
+  const toggleMenu = () => {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+    hamburgerBtn.classList.toggle('toggle-btn');
+  }
+  hamburgerBtn.addEventListener('click', toggleMenu)
+  mobileMenu.addEventListener('click', toggleMenu)
+}
 
 // document.addEventListener('DOMContentLoaded', initApp)
+
+if (typeof document !== 'undefined') {
+  document.addEventListener('DOMContentLoaded', initApp);
+}
+
 
 export default Nav;
