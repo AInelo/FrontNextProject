@@ -137,7 +137,7 @@ function FirstContent() {
 
 
 
-    <div className="bg-white">
+    <div id="projets" className="bg-white">
       <h2 className="text-4xl mx-auto text-center font-bold">Projets Réalisés</h2>
 
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
