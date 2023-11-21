@@ -155,7 +155,7 @@ function FirstContent() {
                 </div>
                 <h3 className="mt-4 text-sm text-black-700">{product.name}</h3>
 
-                <div href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-purple-500 hover:bg-purple-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                <div href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg      bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border border-gray-100          bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                   Voir le projet
                   <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"></svg>
                 </div>
