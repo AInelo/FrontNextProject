@@ -22,11 +22,11 @@ const Nav = () => {
         </button> --> */}
 
         <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
-          <a href="#hero" class="w-full text-white text-center py-6 hover-opacity-90">Home</a>
-          <a href="#rockets" class="w-full text-white  text-center py-6 hover-opacity-90">Our Rockets</a>
-          <a href="#testimonials" class="w-full text-white  text-center py-6 hover-opacity-90">Testimonials</a>
-          <a href="#contact" class="w-full text-center text-white py-6 hover-opacity-90">Contact Us</a>
-          <a href="#footer" class="w-full text-center text-white  py-6 hover-opacity-90">Legal</a>
+          <a href="#hero" class="w-full text-white font-bold text-center py-6 hover-opacity-90">Acceuil</a>
+          <a href="#rockets" class="w-full text-white font-bold text-center py-6 hover-opacity-90">A propos</a>
+          <a href="#testimonials" class="w-full text-white font-bold text-center py-6 hover-opacity-90">Services</a>
+          <a href="#contact" class="w-full text-center text-white font-bold py-6 hover-opacity-90">Projets</a>
+          <a href="#footer" class="w-full text-center text-white font-bold py-6 hover-opacity-90">Contact</a>
         </nav>
       </section>
 
