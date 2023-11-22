@@ -1,4 +1,4 @@
-# Next.js + Tailwind CSS Example
+# Next.js + Tailwind CSS Project UI example
 
 # Prérequis 
 Avoir Node Js installé sur son terminale
