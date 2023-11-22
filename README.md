@@ -1,7 +1,8 @@
 # Next.js + Tailwind CSS Example
 
 # Prérequis 
-Avoir Node Js installé
+Avoir Node Js installé sur son terminale
+Avoir installé le gestionnaire de pack
 
 # Pour installer l'environnement
 
