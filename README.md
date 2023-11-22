@@ -2,7 +2,8 @@
 
 # Prérequis 
 Avoir Node Js installé sur son terminale
-Avoir installé le gestionnaire de packa
+
+Avoir installé le gestionnaire de package
 
 # Pour installer l'environnement
 
