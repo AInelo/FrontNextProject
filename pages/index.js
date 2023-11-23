@@ -11,7 +11,7 @@ export default function Home() {
 	return (
 		<div className="flex flex-col">
 			<Head>
-				<title>Portfolio Darteen</title>
+				<title>Portfolio Dasteen</title>
 				<link rel="icon" href="/pro.ico" />
 			</Head>
 
